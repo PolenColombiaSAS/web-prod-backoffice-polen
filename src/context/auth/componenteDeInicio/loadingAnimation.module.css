@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh; 
+    width: 100%; 
+}
+
+.logo {
+    animation: pulse 1.5s infinite alternate;    
+    width: 600px;
+    max-width: 80%;
+    max-height: 100%;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.3); 
+    }
+}

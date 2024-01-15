@@ -1,0 +1,22 @@
+.pinnedLeft::after {
+    content: "";
+    position: absolute;
+    right: -2px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #e1e1e1;
+    z-index: 20;
+}
+
+
+.pinnedRight::before {
+    content: "";
+    position: absolute;
+    left: -2px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: #e1e1e1;
+    z-index: 20;
+}

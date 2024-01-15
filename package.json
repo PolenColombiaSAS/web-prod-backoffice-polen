@@ -1,0 +1,53 @@
+{
+  "engines": {
+    "node": "18.x"
+  },
+  "name": "next-material-boilerplate",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "latest",
+    "@mui/material": "latest",
+    "@mui/x-data-grid": "^6.11.0",
+    "@mui/x-date-pickers": "latest",
+    "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "axios": "^1.4.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "latest",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.25.3",
+    "fg-loadcss": "3.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "next": "latest",
+    "pdfjs-dist": "^3.4.120",
+    "prop-types": "latest",
+    "qs": "latest",
+    "react": "latest",
+    "react-big-calendar": "^1.8.5",
+    "react-dom": "latest",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.45.4",
+    "react-window": "^1.8.9",
+    "semver": "^7.5.3",
+    "sweetalert2": "^11.10.1",
+    "sweetalert2-react-content": "^5.0.7",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "eslint-config-next": "^12.0.4"
+  }
+}

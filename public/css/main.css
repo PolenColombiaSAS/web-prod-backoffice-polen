@@ -1,0 +1,6 @@
+.custom-zindex-swal-container {
+  z-index: 301000 !important;
+}
+div.rbc-date-cell {
+  padding-right: 0 ;
+}
